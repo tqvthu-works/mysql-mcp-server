@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "mysqlMcpServer": {
+      "command": "/Users/tqvthu/.nvm/versions/node/v20.12.2/bin/node",
+      "args": [
+        "./dist/index.js"
+      ],
+      "env": {
+        "MYSQL_HOST": "0.0.0.0",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "root",
+        "MYSQL_PASS": "root",
+        "MYSQL_DB": "madp",
+        "ALLOW_INSERT_OPERATION": "false",
+        "ALLOW_UPDATE_OPERATION": "false",
+        "ALLOW_DELETE_OPERATION": "false"
+      }
+    }
+  }
+}
