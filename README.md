@@ -9,9 +9,11 @@ A Model Context Protocol (MCP) server for interacting with MySQL databases in Cu
 
 ## Installation
 ```bash
-npm install 
+npm install
+```
 
 ## Configuration
+``` bash
 Create .env with:
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
@@ -21,8 +23,10 @@ MYSQL_DB=your_database
 ALLOW_INSERT_OPERATION=false
 ALLOW_UPDATE_OPERATION=false
 ALLOW_DELETE_OPERATION=false
+```
 
 ## Usage in Cursor
+``` bash
 Add to .cursor/mcp.json
 {
   "mcpServers": {
@@ -33,6 +37,6 @@ Add to .cursor/mcp.json
     }
   }
 }
-
-License
+```
+## License
 MIT
