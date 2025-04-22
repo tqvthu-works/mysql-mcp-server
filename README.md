@@ -33,7 +33,16 @@ Add to .cursor/mcp.json
     "mysqlMcpServer": {
       "command": "npx",
       "args": ["ts-node", "path/to/src/index.ts"],
-      "env": { ... }
+      "env": {
+        "MYSQL_HOST": "0.0.0.0",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "user",
+        "MYSQL_PASS": "pass",
+        "MYSQL_DB": "db",
+        "ALLOW_INSERT_OPERATION": "false",
+        "ALLOW_UPDATE_OPERATION": "false",
+        "ALLOW_DELETE_OPERATION": "false"
+      }
     }
   }
 }
